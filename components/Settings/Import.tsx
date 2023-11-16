@@ -13,7 +13,7 @@ interface Props {
 }
 // Defining the 'Import' component as a functional component
 export const Import: FC<Props> = ({ onImport }) => {
-  const { t } = useTranslation('sidebar'); / Using the 'useTranslation' hook to get the translation function 't' for the 'sidebar' namespace
+  const { t } = useTranslation('sidebar'); // Using the 'useTranslation' hook to get the translation function 't' for the 'sidebar' namespace
   // Returning the JSX elements for the 'Import' component
   return (
     <>
